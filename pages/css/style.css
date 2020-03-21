@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    background-image: url(../images/black.jpg);
+}
+@font-face{
+    font: url(../font/Ambarella.ttf);
+    font-family: Ambarella;
+}
+
+
+.top{
+    text-align: center;
+    height: 36rem;
+    width: 46rem;
+    background: #f2f3f7;
+    margin-left: 20rem;
+    border-radius: 5rem;
+}
+#motor{
+    height: 18rem;
+    margin-top: -2rem;
+    border-radius: 3rem;
+    border-style: double;
+}
+.h2{
+    color: gray;
+    font-family: Ambarella;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+.generate{
+    margin-left: -29rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 62, 62);
+    font-size: 1.2rem;
+}
+.btn-random{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: -29rem;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 18px;
+    border-radius: 40px;
+    box-shadow: -2px -2px 8px rgba(255,255,255, 1), 
+    -2px -2px 12px rgba(255,255,255, 0.5),
+    inset 2px 2px 4px rgba(255,255,255, 0.1),
+   2px 2px 8px rgba(0,0,0, 0.15);
+}
+button :hover{
+    box-shadow: inset -2px -2px 8px rgba(255,255,255, 1), 
+   inset -2px -2px 12px rgba(255,255,255, 0.5),
+    inset 2px 2px 4px rgba(255,255,255, 0.1),
+  inset 2px 2px 8px rgba(0,0,0, 0.15);
+
+}
+button:hover span{
+    display: inline-block;
+    transform: scale(0.98);
+}
+.specific{
+    margin-left: 25rem;
+    margin-top: -6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 62, 62);
+    font-size: 1.2rem;
+}
+.choose{
+    height: 2.4rem;
+    width: 9rem;
+    margin-left: 25rem;
+    font-size: 1.1rem;
+    
+    color: rgb(105, 96, 96);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-show{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 18px;
+    border-radius: 40px;
+    box-shadow: -2px -2px 8px rgba(255,255,255, 1), 
+    -2px -2px 12px rgba(255,255,255, 0.5),
+    inset 2px 2px 4px rgba(255,255,255, 0.1),
+   2px 2px 8px rgba(0,0,0, 0.15);
+
+}
+.reset-button{
+    margin-top: -2rem;
+}
+.btn-reset{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: 33rem;
+    margin-top: -8rem;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 18px;
+    border-radius: 40px;
+    box-shadow: -2px -2px 8px rgba(255,255,255, 1), 
+    -2px -2px 12px rgba(255,255,255, 0.5),
+    inset 2px 2px 4px rgba(255,255,255, 0.1),
+   2px 2px 8px rgba(0,0,0, 0.15);
+
+}
